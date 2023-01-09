@@ -25,14 +25,7 @@ public class MergeSorting  {
 			if (leftArr[i] >= rightArr[j]) {
 				arr[k] = leftArr[i];
 				i++;
-			}
-			/*
-			else {
-				arr[k] = rightArr[j];
-				j++;
-			} 
-			*/
-			
+			}			
 			else if (leftArr[i] <= rightArr[j]){
 				arr[k] = rightArr[j];
 				j++;

@@ -51,7 +51,7 @@ try {
 			}
 	}
 	public void performSort() {
-		MergeSorting descSorter = new MergeSorting();
-		descSorter.mergeSort(denominations, 0, denominations.length - 1);
+		MergeSorting Sort = new MergeSorting();
+		Sort.mergeSort(denominations, 0, denominations.length - 1);
 		}	
 }
